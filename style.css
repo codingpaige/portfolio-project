@@ -1,6 +1,16 @@
-h1 {
-  color: blue;
+body {
+  margin-top: 50px;
 }
-.fa-brands {
-  color: blue;
+h1,
+h3,
+p {
+  color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+.hero-buttons {
+  padding: 20px;
 }
