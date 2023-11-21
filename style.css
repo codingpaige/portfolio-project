@@ -1,21 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+Glagolitic:regular);
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+:root {
+  --primary-color: #181730;
+  --primary-color-light: #d7d6e6;
+  --accent-color: #ff8788;
+}
 body {
   margin-top: 50px;
+  background-color: var(--primary-color);
 }
 
 h1,
 h3,
 .homepage-heading-2 {
-  color: black;
+  color: white;
   text-align: left;
   margin-left: 50px;
   font-family: "Nunito Sans", sans-serif;
 }
+h3 {
+  color: var(--primary-color-light);
+}
 .homepage-heading-1 {
   font-family: monospace;
   font-weight: bold;
+  color: var(--accent-color);
 }
 .homepage-heading-2 {
   margin: 30px 50px;
@@ -30,8 +40,12 @@ a {
   text-decoration: none;
   padding: 20px;
   text-align: left;
+  color: var(--accent-color);
 }
 
-.hero-buttons {
-  color: red;
+.btn-branding-1,
+.btn-branding-2 {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  font-family: monospace;
 }
