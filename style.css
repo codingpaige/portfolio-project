@@ -5,6 +5,7 @@
   --primary-color: #181730;
   --primary-color-light: #d7d6e6;
   --accent-color: #e37834;
+  --accent-color-light: #e6c5b0;
 }
 body {
   margin: 0;
@@ -21,6 +22,10 @@ h3,
   text-align: left;
   margin-left: 50px;
   font-family: "Nunito Sans", sans-serif;
+}
+h1,
+h3 {
+  font-size: 70px;
 }
 h3 {
   color: var(--primary-color-light);
@@ -40,17 +45,18 @@ a {
 }
 .navbar-numbers {
   color: var(--accent-color);
+  font-family: monospace;
 }
 .navbar-menu {
   color: white;
+  font-family: monospace;
 }
 .navbar-menu:hover {
-  color: #d7d6e6;
+  color: var(--accent-color-light);
   text-decoration: underline;
 }
 .homepage-heading-1 {
   font-family: monospace;
-  font-weight: bold;
   color: var(--accent-color);
 }
 .homepage-heading-2 {
@@ -61,4 +67,10 @@ a {
   border-color: var(--accent-color);
   color: var(--accent-color);
   font-family: monospace;
+  margin-top: 20px;
+}
+
+.btn-branding-1:hover,
+.btn-branding-2:hover {
+  background-color: var(--accent-color-light);
 }
