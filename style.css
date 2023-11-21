@@ -38,14 +38,15 @@ a {
   text-align: left;
   color: var(--accent-color);
 }
-.navbar {
-  color: white;
-}
 .navbar-numbers {
   color: var(--accent-color);
 }
-bg-body-tertiary {
-  background: red !important;
+.navbar-menu {
+  color: white;
+}
+.navbar-menu:hover {
+  color: #d7d6e6;
+  text-decoration: underline;
 }
 .homepage-heading-1 {
   font-family: monospace;
