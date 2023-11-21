@@ -7,8 +7,11 @@
   --accent-color: #e37834;
 }
 body {
-  margin-top: 50px;
+  margin: 0;
   background-color: var(--primary-color);
+}
+.intro-wrapper {
+  margin-top: 50px;
 }
 
 h1,
