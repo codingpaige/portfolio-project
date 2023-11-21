@@ -25,14 +25,7 @@ h3,
 h3 {
   color: var(--primary-color-light);
 }
-.homepage-heading-1 {
-  font-family: monospace;
-  font-weight: bold;
-  color: var(--accent-color);
-}
-.homepage-heading-2 {
-  margin: 30px 50px;
-}
+
 p {
   color: black;
   text-align: left;
@@ -45,7 +38,23 @@ a {
   text-align: left;
   color: var(--accent-color);
 }
-
+.navbar {
+  color: white;
+}
+.navbar-numbers {
+  color: var(--accent-color);
+}
+bg-body-tertiary {
+  background: red !important;
+}
+.homepage-heading-1 {
+  font-family: monospace;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+.homepage-heading-2 {
+  margin: 30px 50px;
+}
 .btn-branding-1,
 .btn-branding-2 {
   border-color: var(--accent-color);
