@@ -1,16 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Glagolitic:regular);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 body {
   margin-top: 50px;
 }
+
 h1,
 h3,
+.homepage-heading-2 {
+  color: black;
+  text-align: left;
+  margin-left: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.homepage-heading-1 {
+  font-family: monospace;
+  font-weight: bold;
+}
+.homepage-heading-2 {
+  margin: 30px 50px;
+}
 p {
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 50px;
 }
 
 a {
   text-decoration: none;
-}
-.hero-buttons {
   padding: 20px;
+  text-align: left;
+}
+
+.hero-buttons {
+  color: red;
 }
