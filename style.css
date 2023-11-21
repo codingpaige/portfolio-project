@@ -11,10 +11,6 @@ body {
   margin: 0;
   background-color: var(--primary-color);
 }
-.intro-wrapper {
-  margin-top: 50px;
-}
-
 h1,
 h3,
 .homepage-heading-2 {
@@ -54,6 +50,9 @@ a {
 .navbar-menu:hover {
   color: var(--accent-color-light);
   text-decoration: underline;
+}
+.intro-wrapper {
+  margin-top: 150px;
 }
 .homepage-heading-1 {
   font-family: monospace;
