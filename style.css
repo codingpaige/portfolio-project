@@ -82,3 +82,7 @@ a {
   color: white;
   margin-left: 50px;
 }
+.project-title {
+  padding: 10px 0;
+  font-weight: 600;
+}
