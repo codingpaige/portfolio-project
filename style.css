@@ -28,7 +28,7 @@ h3 {
 }
 
 p {
-  color: white;
+  color: var(--primary-color-light);
   text-align: left;
   margin-left: 50px;
 }
@@ -89,9 +89,16 @@ a {
   padding: 10px 0;
   font-weight: 600;
 }
+.project-title:hover {
+  color: #e37834;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.project-description {
+  color: #a599e9;
+}
 
 @media (max-width: 600) {
   .project-description {
-    color: red;.
   }
 }
