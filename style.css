@@ -80,9 +80,18 @@ a {
 }
 .project-gallery {
   color: white;
-  margin-left: 50px;
+  margin-left: 35px;
+}
+#project {
+  border-radius: 10px;
 }
 .project-title {
   padding: 10px 0;
   font-weight: 600;
+}
+
+@media (max-width: 600) {
+  .project-description {
+    color: red;.
+  }
 }
