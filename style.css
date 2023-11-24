@@ -80,6 +80,8 @@ img {
 .intro-wrapper {
   margin-top: 150px;
 }
+#about-paragraph {
+}
 .homepage-heading-1 {
   font-family: monospace;
   color: var(--accent-color);
