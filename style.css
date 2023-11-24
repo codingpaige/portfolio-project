@@ -97,7 +97,21 @@ a {
 .project-description {
   color: #a599e9;
 }
+#coding-languages {
+  list-style: none;
+  padding: 10px 0;
+}
 
+#coding-languages li {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 9999px;
+  background-color: #e6c5b0;
+  color: #e37834;
+  margin-right: 10px;
+  font-size: smaller;
+  font-family: monospace;
+}
 @media (max-width: 600) {
   .project-description {
   }
