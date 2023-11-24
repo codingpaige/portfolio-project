@@ -35,10 +35,14 @@ p {
 
 a {
   text-decoration: none;
-  padding: 20px;
   text-align: left;
+  color: white;
+}
+
+a:hover {
   color: var(--accent-color);
 }
+
 #section-titles {
   font-size: 15px;
   font-weight: 800;
@@ -100,6 +104,9 @@ a {
   color: #e37834;
   cursor: pointer;
   text-decoration: underline;
+}
+.project-description {
+  color: var(--primary-color-light);
 }
 
 #coding-languages {
