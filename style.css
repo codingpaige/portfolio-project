@@ -59,6 +59,9 @@ img {
 .navbar-menu {
   color: white;
   font-family: monospace;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  padding: 5px 8px;
 }
 .navbar-menu:hover {
   color: var(--accent-color-light);
