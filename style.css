@@ -43,6 +43,10 @@ a:hover {
   color: var(--accent-color);
 }
 
+img {
+  border-radius: 10px;
+}
+
 #section-titles {
   font-size: 15px;
   font-weight: 800;
@@ -92,6 +96,7 @@ a:hover {
 .btn-branding-2:hover {
   background-color: var(--accent-color-light);
 }
+
 .project-gallery {
   color: white;
   margin: 0 35px;
