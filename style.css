@@ -81,11 +81,13 @@ img {
   margin-top: 150px;
 }
 .project-wrapper,
-.contact-wrapper,
-.experience-wrapper,
-.contact-wrapper {
+.experience-wrapper {
   color: var(--primary-color-light);
   margin: 0 35px;
+}
+.contact-wrapper {
+  margin: 0 35px;
+  color: var(--accent-color-light);
 }
 .homepage-heading-1 {
   font-family: monospace;
@@ -132,6 +134,11 @@ img {
   margin-right: 10px;
   font-size: smaller;
   font-family: monospace;
+}
+form {
+  font-family: monospace;
+  font-size: smaller;
+  color: white;
 }
 
 @media (min-width: 850px) {
