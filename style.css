@@ -79,14 +79,17 @@ img {
 
 .intro-wrapper {
   margin-top: 150px;
+  margin-right: 0;
 }
+
+.about-wrapper,
 .project-wrapper,
 .experience-wrapper {
   color: var(--primary-color-light);
-  margin: 0 35px;
+  margin: auto;
 }
 .contact-wrapper {
-  margin: 0 35px;
+  margin: 0 35 0px;
   color: var(--accent-color-light);
 }
 .homepage-heading-1 {
