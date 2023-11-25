@@ -80,7 +80,12 @@ img {
 .intro-wrapper {
   margin-top: 150px;
 }
-#about-paragraph {
+.project-wrapper,
+.contact-wrapper,
+.experience-wrapper,
+.contact-wrapper {
+  color: white;
+  margin: 0 35px;
 }
 .homepage-heading-1 {
   font-family: monospace;
@@ -102,10 +107,6 @@ img {
   background-color: var(--accent-color-light);
 }
 
-.project-gallery {
-  color: white;
-  margin: 0 35px;
-}
 .project-title {
   padding: 10px 0;
   font-weight: 600;
