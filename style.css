@@ -84,7 +84,7 @@ img {
 .contact-wrapper,
 .experience-wrapper,
 .contact-wrapper {
-  color: white;
+  color: var(--primary-color-light);
   margin: 0 35px;
 }
 .homepage-heading-1 {
@@ -110,14 +110,12 @@ img {
 .project-title {
   padding: 10px 0;
   font-weight: 600;
+  color: white;
 }
 .project-title:hover {
   color: #e37834;
   cursor: pointer;
   text-decoration: underline;
-}
-.project-description {
-  color: var(--primary-color-light);
 }
 
 #coding-languages {
