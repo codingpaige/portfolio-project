@@ -45,6 +45,7 @@ img {
 #section-titles {
   font-size: 15px;
   font-weight: 800;
+  margin-bottom: 30px;
 }
 .navbar-numbers {
   color: var(--accent-color);
