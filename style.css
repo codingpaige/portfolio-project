@@ -15,8 +15,6 @@ h1,
 h3,
 .homepage-heading-2 {
   color: white;
-  text-align: left;
-  margin-left: 50px;
   font-family: "Nunito Sans", sans-serif;
 }
 h1,
@@ -29,8 +27,6 @@ h3 {
 
 p {
   color: var(--primary-color-light);
-  text-align: left;
-  margin: 0 50px;
 }
 
 a {
@@ -46,11 +42,9 @@ a:hover {
 img {
   border-radius: 10px;
 }
-
 #section-titles {
   font-size: 15px;
   font-weight: 800;
-  padding: 30px 0;
 }
 .navbar-numbers {
   color: var(--accent-color);
@@ -77,27 +71,20 @@ img {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28165, 153, 233, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.intro-wrapper {
-  margin-top: 150px;
-  margin-right: 0;
-}
-
+.intro-wrapper,
 .about-wrapper,
 .project-wrapper,
-.experience-wrapper {
+.experience-wrapper,
+.contact-wrapper {
   color: var(--primary-color-light);
-  margin: auto;
+  margin: 150px 50px auto 50px;
 }
 .contact-wrapper {
-  margin: 0 35 0px;
   color: var(--accent-color-light);
 }
 .homepage-heading-1 {
   font-family: monospace;
   color: var(--accent-color);
-}
-.homepage-heading-2 {
-  margin: 30px 50px;
 }
 .btn-branding-1,
 .btn-branding-2 {
@@ -113,7 +100,6 @@ img {
 }
 
 .project-title {
-  padding: 10px 0;
   font-weight: 600;
   color: white;
 }
