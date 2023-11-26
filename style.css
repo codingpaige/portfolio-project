@@ -100,31 +100,39 @@ img {
   background-color: var(--accent-color-light);
 }
 
-.project-title {
+.project-title,
+.job-title {
   font-weight: 600;
   color: white;
 }
+
 .project-title:hover {
   color: #e37834;
   cursor: pointer;
   text-decoration: underline;
 }
 
-#coding-languages {
+#coding-languages,
+#task-categories,
+#platform-skills {
   list-style: none;
   padding: 10px 0;
 }
 
-#coding-languages li {
-  margin-top: 10px;
+#coding-languages li,
+#task-categories li {
   padding: 5px 10px;
   border-radius: 9999px;
   background-color: #e6c5b030;
-  color: #e37834;
+  color: var(--accent-color);
   margin-right: 10px;
   font-size: smaller;
   font-family: monospace;
 }
+#task-categories li {
+  color: var(--primary-color-light);
+}
+
 form {
   font-family: monospace;
   font-size: smaller;
@@ -136,7 +144,10 @@ form {
   #about-paragraph,
   .project-description,
   .project-title,
+  .job-title,
+  .job-description,
   .section-titles,
+  #task-categories,
   #form-intro {
     font-size: 20px;
   }
