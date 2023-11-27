@@ -42,6 +42,11 @@ a:hover {
 img {
   border-radius: 10px;
 }
+form {
+  font-family: monospace;
+  font-size: smaller;
+  color: white;
+}
 #section-titles {
   font-size: 15px;
   font-weight: 800;
@@ -132,10 +137,8 @@ img {
 #task-categories li {
   color: var(--primary-color-light);
 }
-
-form {
-  font-family: monospace;
-  font-size: smaller;
+.social-links {
+  font-size: 25px;
   color: white;
 }
 
